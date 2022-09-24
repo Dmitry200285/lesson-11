@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dropdown_menu</title>
+  </head>
+  <body>
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="#">Home</a>
+        </li>
+        <div class="dropdown">
+          <li class="menu__item">
+            <a class="menu__link" href="#">Products</a>
+            <ul class="menu__submenu">
+              <li class="menu__submenu-item">
+                <a class="menu__submenu-link" href="#">Product 1</a>
+              </li>
+              <div class="drop__right">
+              <li class="menu__submenu-item">
+                <a class="menu__submenu-link" href="#">Product 2</a>
+                <ul class="double__submenu">
+                  <li class="double__submenu-item">
+                    <a class="double__submenu-link" href="#">Sub item </a>
+                  </li>
+                  <li class="double__submenu-item">
+                    <a class="double__submenu-link" href="#">Sub item </a>
+                  </li>
+                </ul>
+              </li>
+            </div>
+            </ul>
+          </li>
+        </div>
+        <li class="menu__item">
+          <a class="menu__link" href="#">About</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Contact</a>
+        </li>
+      </ul>
+  </body>
+</html>
