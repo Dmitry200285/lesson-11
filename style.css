@@ -68,7 +68,6 @@ a {
 }
 
 
-
 /* .drop__right:hover .double__submenu {
   display: flex;
 } */
@@ -98,8 +97,3 @@ a {
   border-bottom: 0;
 }
 
-.dws__menu li > ul li ul li{
-  position: absolute;
-  right: -150px;
-  top: 0;
-}
